@@ -1,0 +1,5 @@
+﻿  Board.cpp
+c:\github\tp\mygame\mygame\object.h(33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\github\tp\mygame\mygame\board.cpp(97): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+c:\github\tp\mygame\mygame\board.cpp(98): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+  MyGame.vcxproj -> C:\GitHub\TP\MyGame\x64\Debug\MyGame.exe

@@ -1,0 +1,10 @@
+﻿  Board.cpp
+c:\github\tp\mygame\mygame\Object.h(33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Board.cpp(97): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+Board.cpp(98): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+  Создание кода
+  3 of 628 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    20 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  MyGame.vcxproj -> C:\GitHub\TP\MyGame\x64\Release\MyGame.exe
