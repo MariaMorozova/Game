@@ -17,15 +17,9 @@ public:
 	
 	~BaseObject() {}
 	
-	std::string GetNameTexture() const
-	{
-		return _path;
-	}
+	std::string GetNameTexture() const { return _path; }
 
-	std::pair<int, int> GetPos() const
-	{
-		return std::pair<int, int>(_x, _y);
-	}
+	std::pair<int, int> GetPos() const { return std::pair<int, int>(_x, _y); }
 
 	virtual void Update(){}
 	virtual void Draw(sf::RenderWindow* const window)

@@ -8,7 +8,6 @@ Player::Player(int x, int y, bool bot):
 {
 	_bot = bot;
 	_isMoving = false;
-	_playerHP = 3;
 	_maxBombs = 1;
 }
 
@@ -62,10 +61,6 @@ void Player::Move(int dx, int dy)
 }
 
 void Player::IncMaxBombs() { _maxBombs++; }
-
-void Player::IncPlayerHP() { _playerHP++; }
-
-void Player::DecPlayerHP() { _playerHP--; }
 
 Player::~Player()
 {

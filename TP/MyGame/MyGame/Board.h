@@ -15,13 +15,21 @@ public:
 	void Draw(sf::RenderWindow* const window);
 	void Boom(std::pair<int, int> pos);
 	void DrawBonus(std::pair<int, int> pos);
+
+	void UpdateBonus(std::pair<int, int> pos);
+	void MovingBots(std::pair<int, int> pos);
+	void UpdateBombs();
+	//void InitBoard(int x, int y, int k, char str[]);
+
 	~Board();
 
 private:
 	void Clean();
+	void Hit();
 
 	int** _board;
 	int _width, _height;
+	int _reLoad;
 	bool gameover;
 	std::string _path;
 

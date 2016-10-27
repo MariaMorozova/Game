@@ -13,11 +13,6 @@ public:
 	int GetMaxBombs() const { return _maxBombs; }
 	void IncMaxBombs();
 
-	void Hit() { _playerHP--; }
-	int GetPlayerHP() const { return _playerHP; }
-	void IncPlayerHP();
-	void DecPlayerHP();
-
 	~Player();
 
 private:
@@ -26,7 +21,6 @@ private:
 	int _moveTimer;
 	int _dx, _dy;
 
-	int _playerHP;
 	int _maxBombs; 
 };
 
